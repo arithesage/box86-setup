@@ -82,6 +82,7 @@ else
     echo "Forcing using cached packages."
 fi
 
+
 if ! [ "$FORCE_CACHE" == "1" ];
 then
     if [ "$BOX86_MAIN_URL_OK" == "1" ] && ! [ "$BOX86_ALT_URL_OK" == "1" ];
